@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css"  media="screen" href="css/main.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <progress value="0"></progress>
+    <section>
+    <h4>Some test title</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, repudiandae dolore? Eos dicta, quasi alias sint laudantium eum provident qui quas doloremque? Voluptas vitae eos placeat dolorum exercitationem harum commodi dolorem praesentium id, quaerat laborum! Qui recusandae odit maiores labore commodi? Delectus nobis, perferendis odit fugiat mollitia eum nam, hic consequuntur doloremque vitae enim nemo quasi ullam neque libero, quo non aperiam obcaecati. Corporis vel ipsa nulla, rem nostrum aliquam recusandae doloribus delectus dolorum repellendus dolores deleniti eius cumque nihil dicta, voluptatem non quis repudiandae, quia reiciendis eaque! Inventore nemo illo veritatis expedita sapiente harum labore asperiores, exercitationem quas beatae amet! Fugiat quisquam modi ea doloremque harum recusandae, reprehenderit voluptas totam quaerat soluta repudiandae. Voluptatem a necessitatibus quaerat! Vel excepturi corporis tenetur non magni assumenda amet ex facilis vero maiores! Recusandae tempore veritatis error molestias, earum itaque numquam ut sint perspiciatis. Voluptatem maiores, ea iste quo nam soluta ut, nesciunt placeat iusto, voluptatum autem corporis eos adipisci culpa. Tempore commodi blanditiis similique, expedita dolorem placeat, totam iusto quibusdam incidunt, quasi beatae est inventore dolores. Ipsum deserunt culpa voluptate sit eaque nobis laborum vitae? Corrupti facilis deleniti dolorem, accusantium, cum quos modi necessitatibus culpa impedit nemo est iusto fugit nostrum mollitia.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum reprehenderit sit dolores, modi excepturi quidem non dignissimos, eligendi autem itaque sint eius. Delectus ratione enim similique accusantium officiis nostrum qui quia at, numquam magni quibusdam cumque culpa perferendis cupiditate blanditiis iure debitis eum pariatur quasi quod animi maxime! Sit temporibus, dignissimos, commodi quasi nobis laudantium tempora cumque impedit minima non possimus sed pariatur. Optio quisquam, error dolores distinctio quis fuga provident commodi porro repudiandae asperiores inventore perferendis itaque similique et?</p>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quas delectus non temporibus voluptatem illum assumenda, totam, debitis alias mollitia, dignissimos nulla. Dolorem rem reiciendis fugiat beatae veniam, ab, qui eveniet fuga ducimus nam provident voluptatibus blanditiis sunt architecto accusantium ea numquam minima dolor officiis aut possimus libero modi? Voluptates rerum dolor cum iste voluptatibus dolore, repellat debitis unde inventore excepturi sequi cupiditate eveniet quia assumenda architecto ea soluta, necessitatibus eligendi minus quisquam. Laborum unde, perspiciatis totam, quis porro provident ipsa vel impedit exercitationem minima aut? Possimus id magni illum, animi rem suscipit optio labore perspiciatis quaerat earum, quae eligendi.</p>
+   <hr>
+   <h4>Some other content</h4>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem reiciendis deleniti minima, voluptatem debitis ut qui incidunt cum vero, eveniet maxime. Animi autem ex magni dolorum fugit, unde commodi dicta nulla! Aut ipsum adipisci hic cum suscipit odio incidunt dignissimos explicabo voluptatibus praesentium. Similique eius repellat corporis nobis saepe quidem vel temporibus accusantium praesentium aperiam, ab odit quae tenetur sapiente architecto consectetur minima cum vero nostrum? Commodi excepturi voluptates sunt.</p>
+</section>
+  <script>
+    var docHeight=$('section').height(),
+        winHeight=$(window).height(),
+        max,value;
+        max=docHeight-winHeight;
+        $('progress').attr('max',max);
+        $(document).on('scroll',function (){
+            value=$(window).scrollTop();
+            $('progress').attr('value',value);
+        });
+        
+    </script>
+    <p>The grapefruit pie had a radius of 12cm and a height of
+            2cm.</p>
+            <dl>
+             <dt>Radius: <dd> <meter min=0 max=20 value=12>12cm</meter>
+             <dt>Height: <dd> <meter min=0 max=10 value=2>2cm</meter>
+            </dl>
+</body>
+</html>

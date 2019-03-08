@@ -1,0 +1,51 @@
+ol{
+    background:rgb(255,190,23);
+    border-style:solid;
+}   /* CSS rule  */
+
+/* Type/tag/element selector */
+h4{
+    color:blue;
+}
+
+/* ID selector */
+#first{
+    color:brown;
+}
+
+/* Class selector: ID & class are case sensitive */
+.myClass{
+   background:tomato;
+}
+/* Universal selector */
+*{
+   /* font-size:18px;  Resetting user agent styles specialling margin & padd */
+ }
+/* ID with type/class selector*/
+h4#first{
+    color:darkgreen;
+}
+p.myClass{
+    color:darkblue;
+}
+/* Child Selector */
+p>a{
+    text-transform: capitalize;
+}
+/* Descendent selector */
+p p{
+color:red;
+}
+/* Siblings selector: Adjacent */
+p+h4{
+    font-size:18px;
+}
+/* General siblings */
+p~h4{
+    font-size:18px;
+}
+
+/* Pseudo selectors */
+
+
+

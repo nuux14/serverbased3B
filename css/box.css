@@ -1,0 +1,53 @@
+button{
+    margin:12px;
+}
+span#hiddenspan{
+   visibility: hidden;
+}
+/* Pseudo selectors */
+button:hover+span#hiddenspan{
+visibility: visible;
+    
+}
+input:invalid{
+    background:tomato;
+}
+
+input:valid{
+    /* background:lightgreen; */
+}
+/* study about git/GIT and githubjgjutry6e8488404uehhjghrrjpkld[[jhhdddwr;jln''n
+hkheyre2426e4tttttttttp[pop[]][]][[o]]o\]o]]]]tu'lm,mn;yrep[\g\
+
+b]h]h]h\\g\g]]g]h]h\]]h]]]gbh lhio87nbc77888881111111111111bffff*/
+/* Box Model: rectagular shape by default*/
+label,div{
+    /* border-style:solid */
+}
+input{
+    border-style:none;
+    border-width:1px;
+    border-bottom-style:solid;
+    padding-left:5px;
+    padding-top:2px;
+    
+}
+input:focus{
+    outline-color:lightgoldenrodyellow;
+    border-left-style:solid;
+    border-left-color:gold;
+    border-left-width:2px;
+}
+div.controls{
+    margin-top:5px;
+}
+p{
+    border-style:solid;
+   margin-bottom:60px;
+    width:100px;
+    height:100px;
+    padding:5px;
+    outline-style:solid;
+    outline-color:rgba(200,200,200,.3);
+    outline-width:30px;
+}

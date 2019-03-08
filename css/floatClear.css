@@ -1,0 +1,11 @@
+div.dfloat{
+    background:rgba(183, 56, 185, 0.205);
+    /* float:left; */
+}
+div.dfloat2{
+    background:tomato;
+float:left;
+}
+p{
+    clear:both;
+}

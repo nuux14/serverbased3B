@@ -1,0 +1,20 @@
+span{
+    background:yellow;
+    width:150px;
+    padding:15px;
+    display:inline-block;
+}
+
+div.fixedWidth{
+    background-color:rgb(211, 223, 187);
+    border-style:solid;
+    width:440px;/*min: 440 max: 440*/
+    padding:15px;
+}
+
+div.fluidWidth{
+    background-color:rgb(211, 223, 187);
+    border-style:solid;
+    max-width:440px;/*min: open  max:440  */
+    padding:15px;
+}
