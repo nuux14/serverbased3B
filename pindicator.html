@@ -30,6 +30,12 @@
             value=$(window).scrollTop();
             $('progress').attr('value',value);
         });
+        $(window).on('resize',()=>{
+            docHeight=$('section').height();
+        winHeight=$(window).height();
+        max=docHeight-winHeight;
+        $('progress').attr('max',max);
+        });
         
     </script>
     <p>The grapefruit pie had a radius of 12cm and a height of
