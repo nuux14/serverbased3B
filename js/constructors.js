@@ -1,3 +1,6 @@
+import {User, xyz} from './usermodule.js';
+let btn = document.getElementById('btnAdd');
+btn.addEventListener('click', addUser);
 function addUser(){
     var heading = document.querySelector('h3'),
         name = document.querySelector('#txtName'),
@@ -21,7 +24,8 @@ function addUser(){
 
 var usrsCollection=[];
 
-function User(name,email){
-    this.userName=name;
-    this.userEmail=email;
-}
+// function User(name,email){
+//     this.userName=name;
+//     this.userEmail=email;
+// }
+
